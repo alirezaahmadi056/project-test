@@ -7,6 +7,10 @@ android {
     namespace 'info.alirezaahmadi.testapplication'
     compileSdk 33
 
+    buildFeatures {
+        viewBinding true
+    }
+
     defaultConfig {
         applicationId "info.alirezaahmadi.testapplication"
         minSdk 24
